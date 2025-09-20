@@ -1,11 +1,16 @@
+# @discere-os/graphene.wasm
+
+WebAssembly port of Graphene - A thin layer of types for graphic libraries including vectors, matrices, and quaternions.
+
+[![CI/CD](https://github.com/discere-os/discere-nucleus/actions/workflows/graphene-wasm-ci.yml/badge.svg)](https://github.com/discere-os/discere-nucleus/actions)
+[![JSR](https://jsr.io/badges/@discere-os/graphene.wasm)](https://jsr.io/@discere-os/graphene.wasm)
+[![npm version](https://badge.fury.io/js/@discere-os%2Fgraphene.wasm.svg)](https://badge.fury.io/js/@discere-os%2Fgraphene.wasm)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Status](https://img.shields.io/badge/status-alpha-orange.svg)](https://github.com/discere-os/discere-nucleus)
+
 # Graphene
 
 ### A thin layer of types for graphic libraries
-
-![Linux Build](https://github.com/ebassi/graphene/workflows/Ubuntu%20Build/badge.svg)
-![MSVC Build](https://github.com/ebassi/graphene/workflows/MSVC%20Build/badge.svg)
-![MSYS2 Build](https://github.com/ebassi/graphene/workflows/MSYS2%20Build/badge.svg)
-[![License: MIT](https://img.shields.io/badge/license-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT)
 
 When creating graphic libraries you most likely end up dealing with points
 and rectangles. If you're particularly unlucky, you may end up dealing
