@@ -435,6 +435,7 @@ subdir('include')
 
 src_inc = include_directories('src')
 subdir('src')
+subdir('wasm')
 
 if get_option('tests')
   if cc.get_id() == 'msvc' and cc.version().version_compare('<19')
@@ -481,4 +482,3 @@ summary({
   section: 'Build',
   bool_yn: true,
 )
-
