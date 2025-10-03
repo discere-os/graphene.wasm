@@ -28,6 +28,7 @@ graphene_side_link_args = [
   '-fPIC',
   '-O3',
   '-flto',
+  '-sERROR_ON_UNDEFINED_SYMBOLS=0',  # Host provides dependencies (glib, etc.)
   '-sEXPORTED_FUNCTIONS=["_graphene_wasm_version"]',
 ]
 
@@ -36,6 +37,7 @@ shared_module(
   files('graphene_wasm_side.c'),
   dependencies: [graphene_dep],
   name_prefix: '',
+  name_suffix: 'wasm',
   c_args: graphene_wasm_cargs,
   link_args: graphene_side_link_args,
   install: true,
